@@ -88,5 +88,32 @@ Los tokens OAuth se manejan como credenciales sensibles y no son expuestos públ
 ## 12. Contacto
 
 Para cualquier consulta relacionada con privacidad o eliminación de datos:
+## Eliminación de datos de usuario
+
+El usuario puede solicitar la eliminación total de sus datos asociados a la aplicación en cualquier momento.
+
+Los datos que pueden ser eliminados incluyen:
+
+- Tokens de acceso de Meta (Facebook/Instagram)
+- Identificadores de cuenta asociados a la integración
+- Permisos otorgados a la aplicación
+
+### Métodos de eliminación disponibles:
+
+1. **Revocación directa desde Meta:**
+   El usuario puede eliminar el acceso desde la configuración de su cuenta de Facebook o Instagram, en la sección de aplicaciones conectadas.
+
+2. **Eliminación dentro del sistema:**
+   El usuario puede solicitar la eliminación de datos enviando una solicitud al soporte del desarrollador.
+
+### Efecto de la eliminación:
+
+- El token de acceso deja de ser válido de forma inmediata.
+- Se interrumpe cualquier automatización activa.
+- No se conserva copia de los datos eliminados en el sistema.
+
+### Tiempo de procesamiento:
+
+La eliminación se ejecuta de forma inmediata tras la revocación o solicitud del usuario.
 
 Correo: soporte del desarrollador de la aplicación
